@@ -29,14 +29,7 @@ export default async function IndexPage() {
     <>
       <section className="space-y-6 pb-12 pt-16 lg:py-28">
         <div className="container flex max-w-[64rem] flex-col items-center gap-5 text-center">
-          <Link
-            href="https://twitter.com/tswwws/status/1719892161095745801"
-            className={cn(buttonVariants({ variant: "outline", size: "sm" }), "animate-fade-up opacity-0")}
-            style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
-            target="_blank"
-          >
-            Introducing on <Icons.twitter className="ml-2 h-4 w-4" />
-          </Link>
+       
 
           <h1
             className="animate-fade-up font-urban text-4xl font-extrabold tracking-tight opacity-0 sm:text-5xl md:text-6xl lg:text-7xl"
@@ -45,7 +38,7 @@ export default async function IndexPage() {
             <Balancer>
               Kick off with a bang with{" "}
               <span className="relative bg-gradient-to-r from-indigo-500 to-purple-500/80 bg-clip-text font-extrabold text-transparent">
-                SaaS Starter
+           SaaSter
               </span>
             </Balancer>
           </h1>
@@ -66,18 +59,7 @@ export default async function IndexPage() {
             <Link href="/pricing" className={cn(buttonVariants({ size: "lg" }))}>
               Go Pricing
             </Link>
-            <Link
-              href={siteConfig.links.github}
-              target="_blank"
-              rel="noreferrer"
-              className={cn(buttonVariants({ variant: "outline", size: "lg" }), "px-4")}
-            >
-              <Icons.gitHub className="mr-2 h-4 w-4" />
-              <p>
-                <span className="hidden sm:inline-block">Star on</span>{" "}GitHub{" "}
-                <span className="font-semibold">{nFormatter(stars)}</span>
-              </p>
-            </Link>
+         
           </div>
         </div>
       </section>

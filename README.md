@@ -1,10 +1,10 @@
 <a href="https://saaster.vercel.app">
-  <img alt="SaaS Starter" src="public/og.jpg">
+  <img alt="SaaSter" src="public/og.jpg">
   <h1 align="center">Next SaaS Stripe Starter Kit</h1>
 </a>
 
 <p align="center">
-  Start at full speed with SaaS Starter!
+  Start at full speed with SaaSter!
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@
 
 Empower your next project with the stack of Next.js 14, Prisma, Planetscale, Auth.js, Resend, React Email, Shadcn/ui, and Stripe.
 <br/>
-All seamlessly integrated with the SaaS Starter to accelerate your development and saas journey.
+All seamlessly integrated with the SaaSter to accelerate your development and saas journey.
 
 ## Installation
 

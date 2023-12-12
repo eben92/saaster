@@ -39,7 +39,7 @@ export const authOptions: NextAuthOptions = {
 
         try {
           const result = await resend.emails.send({
-            from: 'SaaS Starter App <onboarding@resend.dev>',
+            from: 'SaaSter App <onboarding@resend.dev>',
             to: process.env.NODE_ENV === "development" ? 'delivered@resend.dev' : identifier,
             subject: authSubject,
             react: MagicLinkEmail({
