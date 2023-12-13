@@ -16,9 +16,7 @@
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
   <a href="#installation"><strong>Installation</strong></a> ·
-  <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
-  <a href="#author"><strong>Author</strong></a> ·
-  <a href="#credits"><strong>Credits</strong></a>
+  <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a>
 </p>
 <br/>
 
@@ -65,8 +63,6 @@ pnpm dev
 - [ ] Switch subscription plan
 
 ## Tech Stack + Features
-
-https://github.com/rhutmannn/saaster/assets/62285783/828a4e0f-30e3-4cfe-96ff-4dfd9cd55124
 
 ### Frameworks
 
