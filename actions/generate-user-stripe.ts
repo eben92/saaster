@@ -35,7 +35,8 @@ export async function generateUserStripe(priceId: string): Promise<responseActio
       })
 
       redirectUrl = stripeSession.url as string
-    } else {
+    }
+     else {
       // User on Free Plan - Create a checkout session to upgrade.
       const stripeSession = await stripe.checkout.sessions.create({
         success_url: billingUrl,
