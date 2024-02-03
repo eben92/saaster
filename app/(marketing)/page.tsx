@@ -9,7 +9,7 @@ import { env } from "@/env.mjs"
 
 export default async function IndexPage() {
   const { stargazers_count: stars } = await fetch(
-    "https://api.github.com/repos/rhutmann/saaster",
+    "https://api.github.com/repos/eben96/saaster",
     {
       ...(env.GITHUB_OAUTH_TOKEN && {
         headers: {

@@ -31,7 +31,7 @@ All seamlessly integrated with the SaaSter to accelerate your development and sa
 Clone & create this repo locally with the following command:
 
 ```bash
-npx create-next-app my-saas-project --example "https://github.com/rhutmann/saaster"
+npx create-next-app my-saas-project --example "https://github.com/eben96/saaster"
 ```
 
 1. Install dependencies using pnpm:
