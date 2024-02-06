@@ -30,7 +30,7 @@ export async function GET(req: Request) {
 
     const fontSize = heading.length > 80 ? "60px" : "80px"
 
-    const githubName = "eben96";
+    const githubName = "eben92";
 
     return new ImageResponse(
       (
@@ -126,7 +126,7 @@ export async function GET(req: Request) {
                   stroke-linejoin="round"
                 />
               </svg>
-              <div tw="flex ml-2">github.com/eben96/saaster</div>
+              <div tw="flex ml-2">github.com/eben92/saaster</div>
             </div>
           </div>
         </div>
